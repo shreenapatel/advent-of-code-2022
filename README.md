@@ -1,8 +1,8 @@
 # advent-of-code-2022
 
-Solutions to (Advent of Code 2022)[https://adventofcode.com/2022/].
+Solutions to [Advent of Code 2022](https://adventofcode.com/2022/).
 
-Puzzle data is downloaded with (advent-of-code-data)[https://github.com/wimglenn/advent-of-code-data].
+Puzzle data is downloaded with [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
 
     make download-data
 
