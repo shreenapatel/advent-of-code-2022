@@ -1,6 +1,6 @@
 def part1(data):
 
-    data = data.rstrip("/n")
+    data = data.rstrip("\n")
 
     i = 0
     while len(set(data[i : (i + 4)])) < 4:  # noqa
@@ -11,7 +11,7 @@ def part1(data):
 
 def part2(data):
 
-    data = data.rstrip("/n")
+    data = data.rstrip("\n")
 
     i = 0
     while len(set(data[i : (i + 14)])) < 14:  # noqa
