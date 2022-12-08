@@ -12,8 +12,7 @@ def part1(data):
 
     # count how many pairs have full overlap
     full_overlap = [
-        any([elf1.issubset(elf2), elf2.issubset(elf1)])
-        for elf1, elf2 in sections  # noqa
+        any([elf1.issubset(elf2), elf2.issubset(elf1)]) for elf1, elf2 in sections
     ]
     num_with_full_overlap = sum(full_overlap)
 
