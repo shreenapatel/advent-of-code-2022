@@ -1,5 +1,5 @@
 from aoc.runner import load_data
-from aoc.solutions.day04 import part1, part2  # noqa
+from aoc.solutions.day04 import part1, part2
 
 
 def test_part1_solution_is_correct():
